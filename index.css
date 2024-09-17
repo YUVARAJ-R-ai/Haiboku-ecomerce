@@ -46,7 +46,8 @@ nav{
 .sidebar {
     border: 0;
     padding: 15px;
-    color:white;
+    color:#400202;
+    font-weight: bold;
     font-size: 12px;
     justify-content: center;
     position: fixed;
@@ -56,6 +57,7 @@ nav{
     width: 10%;
     height: 16vh;
     border-radius: 5px;
+    border:2px solid white;
 
 }
 .sidebar p{
@@ -209,8 +211,10 @@ display: block;
     padding:10px;
     border-radius: 5px;
     color:white;
-    background-color:#0B5ED7;
-
+    background-color: #0B5ED7;
+}
+.added-cart-btn{
+    /* display: none; */
 }
 #footer{
     margin: 0;
